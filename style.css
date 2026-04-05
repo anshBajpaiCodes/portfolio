@@ -1,57 +1,98 @@
 body {
-    font-family: Arial;
     margin: 0;
+    font-family: sans-serif;
     background: #0f172a;
     color: white;
+    transition: 0.3s;
+}
+
+body.light {
+    background: #f1f5f9;
+    color: black;
+}
+
+/* Toggle Button */
+#toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 20px;
     text-align: center;
 }
 
-.hero {
-    padding: 50px;
-    background: linear-gradient(135deg, #1e3a8a, #0f172a);
+.hero h1 {
+    font-size: 2.5rem;
 }
 
-section {
-    padding: 30px;
-}
-
-.card {
-    background: #1e293b;
-    padding: 20px;
-    margin: 20px auto;
-    width: 300px;
-    border-radius: 10px;
-}
-
-a {
-    color: #38bdf8;
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 8px;
     text-decoration: none;
-}body {
-    font-family: Arial;
-    margin: 0;
-    background: #0f172a;
+    background: #3b82f6;
     color: white;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* SECTION */
+.section {
+    margin: 60px 20px;
     text-align: center;
 }
 
-.hero {
-    padding: 50px;
-    background: linear-gradient(135deg, #1e3a8a, #0f172a);
+/* PROJECT GRID */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-section {
-    padding: 30px;
-}
-
+/* CARD */
 .card {
-    background: #1e293b;
-    padding: 20px;
-    margin: 20px auto;
-    width: 300px;
+    width: 280px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
     border-radius: 10px;
 }
 
-a {
-    color: #38bdf8;
-    text-decoration: none;
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 8px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
 }
