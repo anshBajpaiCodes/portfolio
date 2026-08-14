@@ -1,5 +1,5 @@
 // Typing Animation
-const text = ["Flutter Developer", "AI Enthusiast", "Problem Solver"];
+const text = ["Web Developer", "AI Enthusiast", "Problem Solver"];
 let i = 0, j = 0;
 let currentText = "";
 let isDeleting = false;
