@@ -73,7 +73,7 @@ body.light {
     background: rgba(255,255,255,0.1);
     backdrop-filter: blur(10px);
     transition: 0.3s;
-    overflow: hidden; /* 🔥 IMPORTANT FIX */
+    /* overflow: hidden; 🔥 IMPORTANT FIX */
 }
 
 .card img {
@@ -92,10 +92,6 @@ body.light {
 }
 
 
-.card:hover {
-    transition: 0.3s;
-    transform: translateY(-10px);
-}
 
 /* SKILLS */
 .skills span {
@@ -104,6 +100,10 @@ body.light {
     padding: 8px 12px;
     background: rgba(255,255,255,0.2);
     border-radius: 8px;
+    transition: 0.3s;
+}
+.skills span:hover{
+    transform: scale(1.1);
 }
 
 /* MOBILE */
