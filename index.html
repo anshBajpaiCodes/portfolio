@@ -1,144 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ansh Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-
-    <!-- AOS Animation -->
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-  </head>
-
-  <body>
-    <!-- TOGGLE -->
-    <button id="toggle">🌙</button>
-
-    <!-- HERO -->
-    <section class="hero">
-      <h1>Hi, I'm Ansh 👋</h1>
-      <h2><span id="typing"></span></h2>
-
-      <div class="buttons">
-        <a
-          href="https://github.com/anshBajpaiCodes"
-          target="_blank"
-          class="btn"
-        >
-          <i class="fab fa-github"></i> GitHub
-        </a>
-        <a
-          href="https://www.linkedin.com/in/anshbajpaicodes"
-          target="_blank"
-          class="btn"
-        >
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section" data-aos="fade-up">
-      <h2>About Me</h2>
-      <p>I build apps, solve problems, and explore Generative AI.</p>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="section" data-aos="fade-up">
-      <h2>Projects</h2>
-
-      <div class="project-container">
-        <!-- project 1 -->
-        <div class="card" data-aos="zoom-in">
-          <img src="assets/AI-BOT.png.png" alt="project" />
-          <h3>AI Chatbot</h3>
-          <p>ChatGPT-style chatbot with memory</p>
-
-          <div class="buttons">
-            <a
-              href="https://ai-chatbot-anshbajpaicodes.streamlit.app/"
-              target="_blank"
-              class="btn small"
-              >Live</a
-            >
-            <a
-              href="https://github.com/anshBajpaiCodes/ai-chatbot"
-              target="_blank"
-              class="btn small"
-              >Code</a
-            >
-          </div>
-        </div>
-
-        <!-- project 2 -->
-        <div class="card" data-aos="zoom-in">
-          <img src="assets/atmos.png" alt="project" />
-          <h3>Atmos Weather App</h3>
-          <p>
-            A modern weather dashboard with city search, location suggestions,
-            current weather details, recent searches, and light/dark themes.
-          </p>
-
-          <div class="buttons">
-            <a
-              href="https://atmos-liart.vercel.app/"
-              target="_blank"
-              class="btn small"
-              >Live</a
-            >
-            <a
-              href="https://github.com/anshBajpaiCodes/atmos"
-              target="_blank"
-              class="btn small"
-              >Code</a
-            >
-          </div>
-        </div>
-
-        
-
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="section" data-aos="fade-up">
-      <h2>Skills</h2>
-      <div class="skills">
-        <span>Python</span>
-        <span>Java</span>
-        <span>Dart</span>
-        <span>Flutter</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Javascript</span>
-        <span>Git</span>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section" data-aos="fade-up">
-      <h2>Contact</h2>
-
-      <div class="buttons">
-        <a href="mailto:anshbajpai.codes@gmail.com" class="btn">
-          <i class="fas fa-envelope"></i> Email
-        </a>
-      </div>
-    </section>
-
-    <!-- JS -->
-    <script src="script.js"></script>
-
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
-</html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ansh Bajpai — BCA student and Python & Full-Stack Developer portfolio.">
+<title>Ansh Bajpai | Python & Full-Stack Developer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<button id="toggle" aria-label="Toggle theme">☀️</button>
+<header class="hero">
+<nav class="nav"><a class="brand" href="#">AB<span>.</span></a>
+<div class="nav-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</nav>
+<div class="hero-content">
+<p class="eyebrow">BCA STUDENT • SOFTWARE DEVELOPER</p>
+<h1>Hi, I'm <span>Ansh</span> 👋</h1>
+<h2><span id="typing"></span><span class="cursor">|</span></h2>
+<p class="hero-text">I build practical web applications, AI-powered tools and mobile interfaces with a focus on clean UI, APIs and real-world problem solving.</p>
+<div class="buttons">
+<a href="#projects" class="btn primary">View Projects <i class="fas fa-arrow-down"></i></a>
+<a href="https://github.com/anshBajpaiCodes" target="_blank" rel="noopener" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+<a href="https://www.linkedin.com/in/anshbajpaicodes" target="_blank" rel="noopener" class="btn secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div></div></header>
+<main>
+<section id="about" class="section">
+<div class="section-heading"><p class="eyebrow">WHO I AM</p><h2>About Me</h2></div>
+<div class="about-grid"><div class="about-copy">
+<p>I'm a BCA student interested in software development, Python, web development and Generative AI. I enjoy turning ideas into usable applications and learning by building.</p>
+<p>My completed projects include an AI chatbot with memory, a responsive weather dashboard and a Flutter mobile UI. I'm currently growing my backend and full-stack development skills.</p>
+</div><div class="quick-facts">
+<div><span>Education</span><strong>BCA • Expected 2027</strong></div>
+<div><span>Focus</span><strong>Python & Full-Stack Development</strong></div>
+<div><span>Location</span><strong>Noida, Uttar Pradesh</strong></div>
+</div></div></section>
+<section id="projects" class="section">
+<div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Projects</h2><p>Completed projects that reflect my current development skills.</p></div>
+<div class="project-container">
+<article class="card"><div class="card-image"><img src="assets/AI-BOT.png.png" alt="AI Chatbot interface"></div><div class="card-body"><span class="project-number">01</span><h3>AI Chatbot with Memory</h3><p>ChatGPT-style conversational application with persistent memory, chat history and session handling.</p><div class="tags"><span>Python</span><span>Streamlit</span><span>OpenRouter API</span><span>SQLite</span></div><div class="card-actions"><a href="https://ai-chatbot-anshbajpaicodes.streamlit.app/" target="_blank" class="text-link">Live Demo ↗</a><a href="https://github.com/anshBajpaiCodes/ai-chatbot" target="_blank" class="text-link">GitHub ↗</a></div></div></article>
+<article class="card"><div class="card-image"><img src="assets/atmos.png" alt="Atmos weather dashboard"></div><div class="card-body"><span class="project-number">02</span><h3>Atmos Weather App</h3><p>Responsive weather dashboard with city search, autocomplete, weather details, recent searches and themes.</p><div class="tags"><span>JavaScript</span><span>OpenWeather API</span><span>Vercel</span><span>Local Storage</span></div><div class="card-actions"><a href="https://atmos-liart.vercel.app/" target="_blank" class="text-link">Live Demo ↗</a><a href="https://github.com/anshBajpaiCodes/atmos" target="_blank" class="text-link">GitHub ↗</a></div></div></article>
+<article class="card compact"><div class="icon-box"><i class="fas fa-calculator"></i></div><div class="card-body"><span class="project-number">03</span><h3>Flutter Calculator UI</h3><p>Responsive calculator interface built with Flutter and Dart, focused on reusable widgets and clean mobile UI.</p><div class="tags"><span>Flutter</span><span>Dart</span></div><div class="card-actions"><a href="https://github.com/anshBajpaiCodes" target="_blank" class="text-link">GitHub ↗</a></div></div></article>
+</div></section>
+<section id="skills" class="section"><div class="section-heading"><p class="eyebrow">WHAT I USE</p><h2>Skills</h2></div>
+<div class="skill-grid">
+<div class="skill-group"><h3>Languages</h3><div class="skills"><span>Python</span><span>Java</span><span>JavaScript</span><span>Dart</span></div></div>
+<div class="skill-group"><h3>Web Development</h3><div class="skills"><span>HTML5</span><span>CSS3</span><span>Responsive Design</span></div></div>
+<div class="skill-group"><h3>Frameworks</h3><div class="skills"><span>Flutter</span><span>Streamlit</span></div></div>
+<div class="skill-group"><h3>APIs & Database</h3><div class="skills"><span>REST / HTTP APIs</span><span>SQLite</span><span>SQL</span><span>OpenRouter</span><span>OpenWeather</span></div></div>
+<div class="skill-group"><h3>Tools & Concepts</h3><div class="skills"><span>Git</span><span>GitHub</span><span>VS Code</span><span>OOP</span><span>DBMS</span><span>Vercel</span></div></div>
+</div></section>
+<section id="contact" class="section contact"><div class="contact-box"><p class="eyebrow">LET'S CONNECT</p><h2>Have an opportunity or idea?</h2><p>I'm open to software development internships, entry-level opportunities and interesting projects.</p><div class="buttons"><a href="mailto:anshbajpai.codes@gmail.com" class="btn primary"><i class="fas fa-envelope"></i> Email Me</a><a href="https://www.linkedin.com/in/anshbajpaicodes" target="_blank" class="btn secondary"><i class="fab fa-linkedin"></i> LinkedIn</a></div></div></section>
+</main>
+<footer><p>© 2026 Ansh Bajpai • Built with HTML, CSS & JavaScript</p><a href="https://github.com/anshBajpaiCodes" target="_blank">GitHub</a></footer>
+<script src="script.js"></script>
+</body></html>
