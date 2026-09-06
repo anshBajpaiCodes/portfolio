@@ -1,66 +1,37 @@
-🚀 Ansh Portfolio Website
-A simple and clean personal portfolio website built using HTML & CSS to showcase my projects, skills, and development journey.
+# 🚀 Ansh Bajpai — Portfolio
 
-🌐 Live Demo
-👉 [https://github.com/anshBajpaiCodes/portfolio.git](https://anshbajpaicodes.github.io/portfolio/)
+Personal portfolio website showcasing my completed projects, technical skills and development journey.
 
-💡 About This Project
-This is my personal portfolio website where I showcase:
+## 🌐 Live Website
+https://anshbajpaicodes.github.io/portfolio/
 
-My projects (including AI chatbot)
+## 👨‍💻 About
+BCA student focused on Python, full-stack web development, APIs, mobile development and Generative AI.
 
-My technical skills
+## Featured Projects
+- **AI Chatbot with Memory** — Python, Streamlit, OpenRouter API, SQLite
+- **Atmos Weather App** — JavaScript, OpenWeather API, Vercel, Local Storage
+- **Flutter Calculator UI** — Flutter, Dart
 
-Links to my GitHub and other profiles
+## 🛠️ Skills
+**Languages:** Python, Java, JavaScript, Dart  
+**Web:** HTML5, CSS3, Responsive Design  
+**Frameworks:** Flutter, Streamlit  
+**APIs & Database:** REST/HTTP APIs, SQLite, SQL, OpenRouter API, OpenWeather API  
+**Tools:** Git, GitHub, VS Code, OOP, DBMS, Vercel
 
-The goal was to create a fast, simple, and clean portfolio without using any frameworks.
-
-🚀 Features
-💻 Clean and responsive design
-
-📂 Project showcase section
-
-🛠️ Skills section
-
-🔗 External links (GitHub, Live Projects)
-
-⚡ Lightweight (pure HTML + CSS)
-
-🛠️ Tech Stack
-HTML
-
-CSS
-
-📂 Project Structure
+## 📂 Structure
+```text
 portfolio/
-│
 ├── index.html
 ├── style.css
-└── README.md
-▶️ How to Run Locally
-Clone the repository:
+├── script.js
+├── README.md
+└── assets/
+```
 
-git clone https://github.com/anshBajpaiCodes/portfolio.git
-Open the folder:
-
-cd portfolio
-Run:
-
-Open index.html in your browser
-
-📌 Future Improvements
-Add more projects
-
-Improve UI/UX design
-
-Add animations
-
-Make it fully responsive
-
-Upgrade to React (later)
-
-👨‍💻 Author
-Ansh Bajpai
-
-
-
+## 👤 Author
+**Ansh Bajpai**
+- GitHub: https://github.com/anshBajpaiCodes
+- LinkedIn: https://www.linkedin.com/in/anshbajpaicodes
+- Email: anshbajpai.codes@gmail.com
